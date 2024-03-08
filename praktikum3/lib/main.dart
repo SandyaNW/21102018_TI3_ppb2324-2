@@ -12,10 +12,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Hello World'),
+          title: Text('Aplikasi Pertemuan 3'),
         ),
         body: Center(
-          child: Text('Hello World'),
+          child: Text(
+            'Hello World!',
+            style: TextStyle(
+              color: Colors.blueAccent,
+              fontSize: 50,
+            ),
+          ),
         ),
       ),
     );
