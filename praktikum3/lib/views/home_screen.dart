@@ -22,9 +22,11 @@ class HomeScreen extends StatelessWidget {
                 return Padding(
                   padding: const EdgeInsets.fromLTRB(8.0, 12.0, 8.0, 0),
                   child: Container(
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: Color(0xffD2ECD6),
-                      borderRadius: BorderRadius.circular(5.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(5.0),
+                      ),
                     ),
                     child: ListTile(
                       leading: Icon(Icons.account_circle_rounded),
