@@ -6,7 +6,7 @@ class SecondPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final data2 = ModalRoute.of(context)!.settings.arguments;
+    final data2 = ModalRoute.of(context)!.settings.arguments ?? "";
     return Scaffold(
       appBar: AppBar(
         title: const Text('Second Page'),
